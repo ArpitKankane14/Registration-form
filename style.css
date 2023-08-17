@@ -1,0 +1,118 @@
+body{
+
+background-color: rgb(91, 52, 128);}
+
+
+
+form.registration ol li {
+
+    background: #b9cf6a;
+	background: rgba(255,255,255,.3);
+	border-color: #e3ebc3;
+	border-color: rgba(255,255,255,.6);
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+}
+      
+
+
+legend{
+    background-color:rgb(228, 50, 213);
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    text-align:center;
+    background-image: linear-gradient( rgb(233, 222, 243), rgb(91, 52, 128));
+    
+}
+
+
+
+form.registration fieldset{
+background-color: rgb(233, 222, 243);
+border-radius:50px ;
+border-width: 5px;
+border: none;
+font-size: 20px;
+width: 1000px;
+height: 800px;
+margin-left:150px;
+
+
+
+}
+
+form.registration fieldset label{
+
+    float: left;
+	font-size: 15px;
+	width: 110px;
+}
+
+form.registration fieldset fieldset label{
+
+    background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+
+form.registration input:not([type=radio]),
+form.registration textarea{
+
+    background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	outline: none;
+	padding: 5px;
+	width: 200px;
+	
+}
+form.registration li select{
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+
+
+
+button{
+    background-image: linear-gradient( rgb(191, 159, 221), rgb(91, 52, 128));
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+
+

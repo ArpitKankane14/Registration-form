@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="registration">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <ol>
+                <li>
+                    <label for="name" >Name</label>
+                    <input id="name" type="text" placeholder="Firstname">
+                    <input id="name" type="text" placeholder="Lastname">
+
+                </li>
+                <br>
+                <li>
+                    <label for="birth" >Date Of Birth</label>
+                    <input id="birth" type="date">
+                   
+                </li>
+                <br>
+                <li>
+                    <label for="email" >Email</label>
+                    <input id="email" type="Email" placeholder="exampale@domain.com">
+                   
+                </li>
+                <br>
+                <li>
+                    <label for="mobile" >Mobile No.</label>
+                    <input id="mobile" type="tel" placeholder="+91 0000000000">
+                   
+                </li>
+                <br>
+                <li>
+                    <label for="gender" >Gender :</label>
+                    <input id="Male" name="gender" type="radio" value="male"> Male
+                    <input id="Female" name="gender" type="radio" value="Female">Female
+                    <input id="other" name="gender" type="radio" value="Other">Other
+                   
+                </li>
+                <br>
+                <li>
+                    <label for="adress" >Adress</label>
+                    <textarea name="adress" id="adress" cols="30" rows="10"></textarea>
+                   
+                </li>
+                <li>
+                    <label for="country" >Country</label>
+                    <select name="country">
+                    <option value="India">India</option>
+                    <option value="japan">Japan</option>
+                    <option value="USA">USA</option>
+                    <option value="nepal">Nepal</option>
+                    <option value="southafrica">south africa</option>
+                    <option value="iran">Iran</option>
+                     </select>
+                   
+                </li>
+                <br>
+                
+            </ol>
+        
+            <button id="submit" type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
